@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.3 on darwin)" generated="20190927 12:46:13.257" rpa="false">
+<suite id="s1" name="Main" source="/Users/n.stenkin/Desktop/Test_robotFrm/src/main.robot">
+<test id="s1-t1" name="Registration">
+<kw name="Open Chrome Browser">
+<msg timestamp="20190927 12:46:13.437" level="FAIL">No keyword with name 'Open Chrome Browser' found.</msg>
+<status status="FAIL" starttime="20190927 12:46:13.437" endtime="20190927 12:46:13.437"></status>
+</kw>
+<status status="FAIL" starttime="20190927 12:46:13.433" endtime="20190927 12:46:13.437" critical="yes">No keyword with name 'Open Chrome Browser' found.</status>
+</test>
+<status status="FAIL" starttime="20190927 12:46:13.261" endtime="20190927 12:46:13.438"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Main">Main</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20190927 12:46:13.432" level="ERROR">Error in file '/Users/n.stenkin/Desktop/Test_robotFrm/src/main.robot': Resource file 'settings.robot' does not exist.</msg>
+</errors>
+</robot>
